@@ -73,7 +73,7 @@ nav {
 }
 nav a {
     display:inline-block;
-    padding:1% 0;
+    padding:.5% 0;
     width:10%;
     border-radius:10px;
     text-align: center;
@@ -82,12 +82,12 @@ nav a {
 
 .orange {
     background-color:#FF764E;
-    margin-left:10%;
+    margin-left:20%;
 }
 
 .blue {
     background-color:#5ED3EB;
-    margin:0 24%;
+    margin:0 15%;
 }
 
 .yellow {
@@ -98,6 +98,7 @@ nav a {
 /*Top Section Styles*/
 .top{
     position:relative;
+    font-weight:normal;
 }
 .left img{
     border-radius:50%;
@@ -110,6 +111,7 @@ nav a {
 }
 .left{
     width:40%;
+    margin-left:10%
 }
 .right{
     width:45%;
@@ -118,8 +120,60 @@ nav a {
     top:40%;
     right:10%;
 }
-
-/*background image section*/
+.right h1 {
+    margin-bottom:2%;
+}
+.right h2 {
+    font-weight:bold;
+}
+.right p {
+    margin-top:2%;
+    font-weight:bold;
+}
+/*Middle about section*/
+.main {
+    background-color:#DDB9A3;
+    margin-top:2%;
+    margin-left:3%;
+    margin-right:3%;
+    padding:1% 2%;
+    border:none;
+    color:white;
+    text-align:center;
+}
+.one{
+    margin:1;
+    padding-left:0
+}
+.two {
+    margin:1%;
+}
+/*Images Section*/
+.images{
+    text-align:center;
+}
+.fire {
+    width:10%;
+}    
+.camper{
+    width:10%;
+}
+.three {
+    text-align:center;
+    padding:1% 40%;
+}
+.four {
+    text-align:center;
+    padding:1% 30%;
+    ;
+}
+span.park {
+    font-weight:bold;
+}
+span.restrictions {
+    font-weight:bold;
+}
+/*Background image section*/
 
 .heroImg {
     height:50vh;
@@ -127,4 +181,9 @@ nav a {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:top;
+}
+
+/*Footer Section*/
+footer {
+    background-color:#F9E7DC;
 }
